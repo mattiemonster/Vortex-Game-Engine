@@ -23,7 +23,10 @@ public:
 	int GetMinor();
 	int GetPatch();
 
-	Version copy();
+	void PrintVersion();
+	void PrintVersionRaw();
+
+	Version Copy();
 };
 
 #endif

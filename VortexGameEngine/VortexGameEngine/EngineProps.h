@@ -2,6 +2,9 @@
 #define ENGINE_PROPS_H_
 
 #include <iostream>
+#include "Version.h"
+
+Version ver(0, 0, 1);
 
 static void PrintEngineName();
 static std::string GetEngineName();

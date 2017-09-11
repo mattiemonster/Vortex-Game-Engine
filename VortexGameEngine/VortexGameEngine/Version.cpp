@@ -56,7 +56,17 @@ int Version::GetPatch()
 	return m_Patch;
 }
 
-Version Version::copy()
+void Version::PrintVersion()
+{
+	std::cout << "Version: " << m_Major << "." << m_Minor << "." << m_Patch << std::endl;
+}
+
+void Version::PrintVersionRaw()
+{
+	std::cout << m_Major << "." << m_Minor << "." << m_Patch;
+}
+
+Version Version::Copy()
 {
 	return Version(m_Major, m_Minor, m_Patch);
 }

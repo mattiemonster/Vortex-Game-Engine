@@ -19,15 +19,27 @@
     <Filter Include="Header Files\Engine">
       <UniqueIdentifier>{43f32ede-b174-42dc-9b52-fed7a4141805}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Engine\Util">
+      <UniqueIdentifier>{87dd5966-1fef-460d-b75c-444ef03b0a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Util">
+      <UniqueIdentifier>{ac200354-e80b-4043-9459-1e2f60e1f1ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EngineProps.h">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files\Engine\Util</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineProps.cpp">
       <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files\Engine\Util</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

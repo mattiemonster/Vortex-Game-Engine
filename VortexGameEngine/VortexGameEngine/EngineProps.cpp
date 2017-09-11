@@ -14,3 +14,10 @@ const char * GetEngineNameChar()
 {
 	return "Vortex Engine";
 }
+
+void PrintEngineVersion()
+{
+	std::cout << "Engine version: ";
+	ver.PrintVersionRaw();
+	std::cout << std::endl;
+}
