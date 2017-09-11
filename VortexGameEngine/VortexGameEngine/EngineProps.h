@@ -7,4 +7,7 @@ static void PrintEngineName();
 static std::string GetEngineName();
 static const char* GetEngineNameChar();
 
+static void PrintEngineVersion();
+
+
 #endif
