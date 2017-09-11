@@ -124,5 +124,6 @@ void Dimension::PrintRaw()
 
 XY Dimension::ToXY()
 {
+	
 	return XY(m_Width, m_Height);
 }
